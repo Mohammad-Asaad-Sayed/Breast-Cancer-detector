@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from classifier import ImageClassifier
+from breast_cancer_classifier import ImageClassifier
 import pandas as pd
 
 
