@@ -1,4 +1,4 @@
-tensorflow<=2.19.0
-streamlit
-pillow
-numpy
+tensorflow==2.10.0
+keras==2.10.0
+streamlit>=1.20.0
+rich>=10.14.0
