@@ -1,17 +1,4 @@
-# Core Application Requirements
-streamlit>=1.32,<2.0
-tensorflow>=2.12  # or tensorflow==2.12.1
-pillow>=10.0,<11.0
-pandas>=2.0,<3.0
-numpy>=1.24,<2.0
-protobuf>=3.20,<4.0
-
-# Rich Ecosystem (all pinned)
-rich==13.7.0
-markdown-it-py==2.2.0
-mdurl==0.1.1
-pygments==2.15.1
-
-# Optional Development Tools
-black>=23.0,<24.0
-pylint>=2.17,<3.0
+keras>=2.11.0
+tensorflow>=2.11.0
+Pillow>=9.0.0
+numpy>=1.21.0
