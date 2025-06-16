@@ -1,17 +1,17 @@
-# Core requirements (flexible patch versions)
-streamlit>=1.32,<2.0
-tensorflow>=2.12,<2.13
-pillow>=10.0,<11.0
-pandas>=2.0,<3.0
-numpy>=1.24,<2.0
-protobuf>=3.20,<4.0
+# Core Application Requirements
+streamlit>=1.32,<2.0             # Web interface
+tensorflow>=2.12,<2.13           # Includes keras (no separate install needed)
+pillow>=10.0,<11.0               # Image processing
+pandas>=2.0,<3.0                 # Data handling
+numpy>=1.24,<2.0                 # Numerical operations
+protobuf>=3.20,<4.0              # Protocol buffers
 
-# Rich ecosystem (flexible but constrained)
-rich>=13.0,<14.0
-markdown-it-py>=2.2,<3.0
-mdurl>=0.1,<0.2
-pygments>=2.13,<3.0
+# Stable Rich Ecosystem (prevents conflicts)
+rich==13.7.0                     # Console formatting
+markdown-it-py==2.2.0            # Markdown parser
+mdurl==0.1.1                     # URL handling
+pygments==2.15.1                 # Syntax highlighting
 
-# Optional development tools
-black>=23.0,<24.0
-pylint>=2.17,<3.0
+# Optional Development Tools
+black>=23.0,<24.0                # Code formatting
+pylint>=2.17,<3.0                # Linting
