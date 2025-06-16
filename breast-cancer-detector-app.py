@@ -30,7 +30,7 @@ if uploaded_file:
 
     with col2:
         # Classify image
-        classifier = get_classifier()
+    
         class_name, confidence, all_probs = classifier.predict(image)
 
         # Show results
