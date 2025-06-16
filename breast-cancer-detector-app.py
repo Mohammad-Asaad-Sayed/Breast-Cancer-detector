@@ -5,9 +5,7 @@ import pandas as pd
 
 
 # Initialize classifier (cached)
-@st.cache_resource
-def get_classifier():
-    return ImageClassifier()
+classifier= ImageClassifier()
 
 
 # App UI
