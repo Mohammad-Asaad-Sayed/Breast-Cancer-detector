@@ -1,7 +1,17 @@
-streamlit>=1.32
+# Core requirements (flexible patch versions)
+streamlit>=1.32,<2.0
 tensorflow>=2.12,<2.13
-pillow>=10.0
-pandas>=2.0
-numpy>=1.24
-protobuf>=3.20,<4
-pip>=24.0
+pillow>=10.0,<11.0
+pandas>=2.0,<3.0
+numpy>=1.24,<2.0
+protobuf>=3.20,<4.0
+
+# Rich ecosystem (flexible but constrained)
+rich>=13.0,<14.0
+markdown-it-py>=2.2,<3.0
+mdurl>=0.1,<0.2
+pygments>=2.13,<3.0
+
+# Optional development tools
+black>=23.0,<24.0
+pylint>=2.17,<3.0
