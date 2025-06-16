@@ -2,3 +2,4 @@ tensorflow-cpu==2.11.0
 keras
 streamlit
 rich
+numpy<=2
