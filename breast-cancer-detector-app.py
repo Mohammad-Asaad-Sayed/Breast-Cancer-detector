@@ -9,7 +9,7 @@ classifier= ImageClassifier()
 
 
 # App UI
-st.set_page_config(page_title="Medical Image Classifier", layout="wide")
+st.set_page_config(page_title="Breast Cancer Classifier", layout="wide")
 st.title("Medical Image Classifier")
 
 # File upload
